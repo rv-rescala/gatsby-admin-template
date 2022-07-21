@@ -19,18 +19,6 @@ const items: MenuItemType[] = [
         link: { to: '/extra-components/accordion' },
       },
       {
-        title: 'Actions',
-        link: { to: '/extra-components/actions' },
-      },
-      {
-        title: 'Alert',
-        link: { to: '/extra-components/alert' },
-      },
-      {
-        title: 'List',
-        link: { to: '/extra-components/list' },
-      },
-      {
         title: 'Spinner',
         link: { to: '/extra-components/spinner' },
       },
@@ -41,10 +29,6 @@ const items: MenuItemType[] = [
       {
         title: 'Tabs',
         link: { to: '/extra-components/tabs' },
-      },
-      {
-        title: 'Chat',
-        link: { to: '/extra-components/chat' },
       },
       {
         title: 'Cards',
@@ -111,20 +95,6 @@ const items: MenuItemType[] = [
       {
         title: 'Toastr',
         link: { to: '/modal-overlays/toastr' },
-      },
-    ],
-  },
-  {
-    title: 'Editors',
-    icon: { name: 'text-outline' },
-    children: [
-      {
-        title: 'TinyMCE',
-        link: { to: '/editors/tinymce' },
-      },
-      {
-        title: 'CKEditor',
-        link: { to: '/editors/ckeditor' },
       },
     ],
   },
